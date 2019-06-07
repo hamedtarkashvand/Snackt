@@ -1,17 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from '../../src';
+import Snackt from '../../src/component/snackbar/index';
 
-const classes={
-  fontSize:12,
-  color:'red',
-  width:'100%',
-  margin:'0 auto',
-  padding:10
-}
+
 
 const App = () => {
-  return <HelloWorld classes={classes} greetings={"Hello IRC"} />;
+  
+  const setting = {
+    text: "Notification Message",
+    color: "white",
+    bgColor: "black",
+    duration: 5000,
+    actionButton: true,
+    actionButtonText: "OK",
+    icon: "warning",
+  }
+  return <Snackt setting = {setting} />;
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
