@@ -7,6 +7,7 @@ const SnackBar = (props) => {
             <h1>{props.setting.text}</h1>
         )
     }
+    
     const openSnackBar = () => {
         if (isOpen) {
             setTimeout(function () {
