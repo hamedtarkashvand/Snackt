@@ -7,8 +7,6 @@ import Snackt from '../../src/component/snackbar/index';
 const App = () => {
   
   const setting = {
-
-    
     text: "Notification Message",
     color: "white",
     bgColor: "black",
