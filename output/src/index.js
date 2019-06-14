@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import Snackt from '../../src/component/snackbar/index';
-// import "./style.css"
+
 
 
 
