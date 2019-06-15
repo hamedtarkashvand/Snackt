@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import Snackt from '../../src/component/snackbar/index';
 
-
-
-
 const App = () => {
   
   const setting = {
